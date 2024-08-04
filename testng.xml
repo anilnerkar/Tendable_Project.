@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.tenableProject.utilities.ExtentListenerClass"></listener>
+</listeners> 
+  <test  name="Test">
+    <classes>
+      
+      <class name="com.tenableProject.Test.TestBase"/>
+      <class name="com.tenableProject.Test.TC_01Verify_Top_Menus_Displayed"/>
+      <class name="com.tenableProject.Test.TC_02Verify_RequestDemo_Btn_Displayed_For_Menus"/>
+      <class name="com.tenableProject.Test.TC_03Verify_ErrorMessage"/>
+      
+    </classes>
+  </test> <!-- Test --> 
+</suite> <!-- Suite -->
